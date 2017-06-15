@@ -75,6 +75,7 @@ public class MainFrame {
     private void initialize() throws Exception {
 	// Main frame dimensions
 	frame = new JFrame();
+	System.out.println("Hello mlady");
 	Dimension screenSize = Toolkit.getDefaultToolkit().getScreenSize();
 	frame.setBounds(100, 100, (int) (0.5 * screenSize.getWidth()), (int) (0.8 * screenSize.getHeight()));
 	frame.setVisible(true);
